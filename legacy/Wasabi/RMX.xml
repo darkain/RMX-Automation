@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<WinampAbstractionLayer version="0.7">
+
+   <groupdef id="RmxPrefs.Preferences">
+	<RmxPrefs:Preferences x="0" y="0" w="0" h="0" relatw="1" relath="1" />
+   </groupdef>
+
+</WinampAbstractionLayer>

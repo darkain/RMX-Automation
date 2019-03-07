@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{df23372e-035d-42db-a705-374830dc31c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vConsoleWnd">
+      <UniqueIdentifier>{80892522-a937-4212-a70f-df36f0f7c230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vConfigWnd">
+      <UniqueIdentifier>{ef7539d8-59d8-4db3-b1d8-042e9e4e2f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vSettingWnd">
+      <UniqueIdentifier>{abeae90d-aa45-424e-96fa-d8f986a08adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vMasterPlugin">
+      <UniqueIdentifier>{d129776a-e7ea-42b5-b006-0dbc25457855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rmx_win32.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="vConsoleWnd\ConsoleWnd.cpp">
+      <Filter>vConsoleWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vConfigWnd\ConfigPaneItem.cpp">
+      <Filter>vConfigWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vConfigWnd\ConfigPaneItems.cpp">
+      <Filter>vConfigWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vConfigWnd\ConfigPaneWnd.cpp">
+      <Filter>vConfigWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vConfigWnd\ConfigStatus.cpp">
+      <Filter>vConfigWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vConfigWnd\ConfigWnd.cpp">
+      <Filter>vConfigWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vConfigWnd\ConfigWndTree.cpp">
+      <Filter>vConfigWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vSettingWnd\SettingWnd.cpp">
+      <Filter>vSettingWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="vMasterPlugin\MasterPlugin.cpp">
+      <Filter>vMasterPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="vMasterPlugin\MasterTray.cpp">
+      <Filter>vMasterPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rmx_win32.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="vConsoleWnd\ConsoleWnd.h">
+      <Filter>vConsoleWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\ConfigPaneItem.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\ConfigPaneItems.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\ConfigPaneWnd.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\ConfigStatus.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\ConfigWnd.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\ConfigWndTree.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vConfigWnd\TreeRootCallback.h">
+      <Filter>vConfigWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vSettingWnd\SettingWnd.h">
+      <Filter>vSettingWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterConsole.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterEnable.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterExit.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterMenu.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterPlugin.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterTray.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="vMasterPlugin\MasterWnd.h">
+      <Filter>vMasterPlugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

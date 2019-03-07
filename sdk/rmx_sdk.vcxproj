@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>RMX SDK</ProjectName>
+    <ProjectGuid>{5429B569-E9D4-4991-9FFE-001C7906AB54}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/RMX SDK.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Release\RMX SDK.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/RMX SDK.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/RMX SDK.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Release\RMX SDK.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/RMX SDK.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/RMX SDK.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Debug\$(ProjectName).lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/RMX SDK.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/RMX SDK.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>.\Debug\RMX SDK.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/RMX SDK.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libraries\sqlite\sqlite3.h" />
+    <ClInclude Include="..\libraries\sqlite\sqlite3ext.h" />
+    <ClInclude Include="cfg\cfgAddChild.h" />
+    <ClInclude Include="cfg\cfgAutoList.h" />
+    <ClInclude Include="cfg\cfgBase.h" />
+    <ClInclude Include="cfg\cfgBool.h" />
+    <ClInclude Include="cfg\cfgButton.h" />
+    <ClInclude Include="cfg\cfgButtonMenu.h" />
+    <ClInclude Include="cfg\cfgHelper.h" />
+    <ClInclude Include="cfg\cfgInt.h" />
+    <ClInclude Include="cfg\cfgLine.h" />
+    <ClInclude Include="cfg\cfgLink.h" />
+    <ClInclude Include="cfg\cfgMenu.h" />
+    <ClInclude Include="cfg\cfgMessage.h" />
+    <ClInclude Include="cfg\cfgNull.h" />
+    <ClInclude Include="cfg\cfgPath.h" />
+    <ClInclude Include="cfg\cfgRoot.h" />
+    <ClInclude Include="cfg\cfgStatusBar.h" />
+    <ClInclude Include="cfg\cfgText.h" />
+    <ClInclude Include="cfg\cfgTree.h" />
+    <ClInclude Include="cfg\cfgWndHelper.h" />
+    <ClInclude Include="cfg\config.h" />
+    <ClInclude Include="dx\dxRender.h" />
+    <ClInclude Include="dx\dxSprite.h" />
+    <ClInclude Include="dx\dxTexture.h" />
+    <ClInclude Include="dx\dxTilemap.h" />
+    <ClInclude Include="dx\dxTileset.h" />
+    <ClInclude Include="dx\dxWnd.h" />
+    <ClInclude Include="dx\vDirectX.h" />
+    <ClInclude Include="evnt\evntAbsolute.h" />
+    <ClInclude Include="evnt\evntBase.h" />
+    <ClInclude Include="evnt\evntLock.h" />
+    <ClInclude Include="evnt\evntPress.h" />
+    <ClInclude Include="evnt\evntRelative.h" />
+    <ClInclude Include="evnt\evntSingle.h" />
+    <ClInclude Include="func\funcAbsolute.h" />
+    <ClInclude Include="func\funcBase.h" />
+    <ClInclude Include="func\funcCallback.h" />
+    <ClInclude Include="func\funcGroup.h" />
+    <ClInclude Include="func\funcParam.h" />
+    <ClInclude Include="func\funcPress.h" />
+    <ClInclude Include="func\funcRelative.h" />
+    <ClInclude Include="func\funcSingle.h" />
+    <ClInclude Include="func\funcToggle.h" />
+    <ClInclude Include="handles\hconsole.h" />
+    <ClInclude Include="handles\hfunction.h" />
+    <ClInclude Include="handles\hparamlist.h" />
+    <ClInclude Include="handles\hplugin.h" />
+    <ClInclude Include="wnd\wndBase.h" />
+    <ClInclude Include="wnd\wndButton.h" />
+    <ClInclude Include="wnd\wndDialog.h" />
+    <ClInclude Include="wnd\wndDivider.h" />
+    <ClInclude Include="wnd\wndDroplist.h" />
+    <ClInclude Include="wnd\wndEdit.h" />
+    <ClInclude Include="wnd\wndForest.h" />
+    <ClInclude Include="wnd\wndForestBase.h" />
+    <ClInclude Include="wnd\wndForestItem.h" />
+    <ClInclude Include="wnd\wndForestItems.h" />
+    <ClInclude Include="wnd\wndFrame.h" />
+    <ClInclude Include="wnd\wndLabel.h" />
+    <ClInclude Include="wnd\wndList.h" />
+    <ClInclude Include="wnd\wndScroll.h" />
+    <ClInclude Include="wnd\wndStatus.h" />
+    <ClInclude Include="wnd\wndSubclass.h" />
+    <ClInclude Include="wnd\wndTab.h" />
+    <ClInclude Include="wnd\wndTree.h" />
+    <ClInclude Include="wnd\wndTreeItem.h" />
+    <ClInclude Include="whk\whkBase.h" />
+    <ClInclude Include="whk\whkColor.h" />
+    <ClInclude Include="whk\whkCommand.h" />
+    <ClInclude Include="whk\whkMouse.h" />
+    <ClInclude Include="whk\whkNotify.h" />
+    <ClInclude Include="whk\whkScroll.h" />
+    <ClInclude Include="whk\whkTrack.h" />
+    <ClInclude Include="ColorSpace.h" />
+    <ClInclude Include="plugBase.h" />
+    <ClInclude Include="rmxBase.h" />
+    <ClInclude Include="rmxGuid.h" />
+    <ClInclude Include="rmxList.h" />
+    <ClInclude Include="rmxLock.h" />
+    <ClInclude Include="rmxMsg.h" />
+    <ClInclude Include="rmxName.h" />
+    <ClInclude Include="rmxPair.h" />
+    <ClInclude Include="rmxTypes.h" />
+    <ClInclude Include="rmxUnicode.h" />
+    <ClInclude Include="StringList.h" />
+    <ClInclude Include="TextAlign.h" />
+    <ClInclude Include="vArray.h" />
+    <ClInclude Include="win32\Comm.h" />
+    <ClInclude Include="win32\manifest.h" />
+    <ClInclude Include="win32\Menu.h" />
+    <ClInclude Include="win32\MessageWnd.h" />
+    <ClInclude Include="win32\Registry.h" />
+    <ClInclude Include="win32\Thread.h" />
+    <ClInclude Include="win32\Timer.h" />
+    <ClInclude Include="win32\timerDelete.h" />
+    <ClInclude Include="win32\TrayIcon.h" />
+    <ClInclude Include="win32\Win32.h" />
+    <ClInclude Include="prm\prmBase.h" />
+    <ClInclude Include="cb\cbBase.h" />
+    <ClInclude Include="cb\cbCore.h" />
+    <ClInclude Include="cb\cbCoreDelay.h" />
+    <ClInclude Include="cb\cbList.h" />
+    <ClInclude Include="cb\cbListAuto.h" />
+    <ClInclude Include="cb\cbListItem.h" />
+    <ClInclude Include="cb\cbListRoot.h" />
+    <ClInclude Include="cb\cbPlugin.h" />
+    <ClInclude Include="cb\cbRoot.h" />
+    <ClInclude Include="cons\consBase.h" />
+    <ClInclude Include="xml\amigaconfig.h" />
+    <ClInclude Include="xml\ascii.h" />
+    <ClInclude Include="xml\asciitab.h" />
+    <ClInclude Include="xml\expat.h" />
+    <ClInclude Include="xml\expat_external.h" />
+    <ClInclude Include="xml\iasciitab.h" />
+    <ClInclude Include="xml\internal.h" />
+    <ClInclude Include="xml\latin1tab.h" />
+    <ClInclude Include="xml\macconfig.h" />
+    <ClInclude Include="xml\nametab.h" />
+    <ClInclude Include="xml\utf8tab.h" />
+    <ClInclude Include="xml\winconfig.h" />
+    <ClInclude Include="xml\xmlread.h" />
+    <ClInclude Include="xml\xmlreadfile.h" />
+    <ClInclude Include="xml\xmlrole.h" />
+    <ClInclude Include="xml\xmltok.h" />
+    <ClInclude Include="xml\xmlwrite.h" />
+    <ClInclude Include="json\JSON_parser.h" />
+    <ClInclude Include="..\predefine.h" />
+    <ClInclude Include="..\rmx_version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libraries\sqlite\sqlite3.c" />
+    <ClCompile Include="cfg\cfgBase.cpp" />
+    <ClCompile Include="cfg\cfgBool.cpp" />
+    <ClCompile Include="cfg\cfgButton.cpp" />
+    <ClCompile Include="cfg\cfgButtonMenu.cpp" />
+    <ClCompile Include="cfg\cfgInt.cpp" />
+    <ClCompile Include="cfg\cfgLink.cpp" />
+    <ClCompile Include="cfg\cfgMenu.cpp" />
+    <ClCompile Include="cfg\cfgNull.cpp" />
+    <ClCompile Include="cfg\cfgPath.cpp" />
+    <ClCompile Include="cfg\cfgRoot.cpp" />
+    <ClCompile Include="cfg\cfgStatusBar.cpp" />
+    <ClCompile Include="cfg\cfgText.cpp" />
+    <ClCompile Include="cfg\cfgTree.cpp" />
+    <ClCompile Include="dx\dxSprite.cpp" />
+    <ClCompile Include="dx\dxTexture.cpp" />
+    <ClCompile Include="dx\dxTilemap.cpp" />
+    <ClCompile Include="dx\dxTileset.cpp" />
+    <ClCompile Include="dx\dxWnd.cpp" />
+    <ClCompile Include="evnt\evntAbsolute.cpp" />
+    <ClCompile Include="evnt\evntBase.cpp" />
+    <ClCompile Include="evnt\evntLock.cpp" />
+    <ClCompile Include="evnt\evntPress.cpp" />
+    <ClCompile Include="evnt\evntRelative.cpp" />
+    <ClCompile Include="evnt\evntSingle.cpp" />
+    <ClCompile Include="func\funcAbsolute.cpp" />
+    <ClCompile Include="func\funcBase.cpp" />
+    <ClCompile Include="func\funcCallback.cpp" />
+    <ClCompile Include="func\funcGroup.cpp" />
+    <ClCompile Include="func\funcParam.cpp" />
+    <ClCompile Include="func\funcPress.cpp" />
+    <ClCompile Include="func\funcRelative.cpp" />
+    <ClCompile Include="func\funcSingle.cpp" />
+    <ClCompile Include="func\funcToggle.cpp" />
+    <ClCompile Include="wnd\wndBase.cpp" />
+    <ClCompile Include="wnd\wndButton.cpp" />
+    <ClCompile Include="wnd\wndDialog.cpp" />
+    <ClCompile Include="wnd\wndDivider.cpp" />
+    <ClCompile Include="wnd\wndDroplist.cpp" />
+    <ClCompile Include="wnd\wndEdit.cpp" />
+    <ClCompile Include="wnd\wndForest.cpp" />
+    <ClCompile Include="wnd\wndForestBase.cpp" />
+    <ClCompile Include="wnd\wndForestItem.cpp" />
+    <ClCompile Include="wnd\wndForestItems.cpp" />
+    <ClCompile Include="wnd\wndFrame.cpp" />
+    <ClCompile Include="wnd\wndLabel.cpp" />
+    <ClCompile Include="wnd\wndList.cpp" />
+    <ClCompile Include="wnd\wndScroll.cpp" />
+    <ClCompile Include="wnd\wndStatus.cpp" />
+    <ClCompile Include="wnd\wndSubclass.cpp" />
+    <ClCompile Include="wnd\wndTab.cpp" />
+    <ClCompile Include="wnd\wndTree.cpp" />
+    <ClCompile Include="wnd\wndTreeItem.cpp" />
+    <ClCompile Include="whk\whkBase.cpp" />
+    <ClCompile Include="whk\whkColor.cpp" />
+    <ClCompile Include="whk\whkCommand.cpp" />
+    <ClCompile Include="whk\whkMouse.cpp" />
+    <ClCompile Include="whk\whkNotify.cpp" />
+    <ClCompile Include="whk\whkScroll.cpp" />
+    <ClCompile Include="whk\whkTrack.cpp" />
+    <ClCompile Include="rmxBase.cpp" />
+    <ClCompile Include="rmxGuid.cpp" />
+    <ClCompile Include="rmxUnicode.cpp" />
+    <ClCompile Include="win32\Comm.cpp" />
+    <ClCompile Include="win32\Menu.cpp" />
+    <ClCompile Include="win32\MessageWnd.cpp" />
+    <ClCompile Include="win32\Registry.cpp" />
+    <ClCompile Include="win32\Thread.cpp" />
+    <ClCompile Include="win32\Timer.cpp" />
+    <ClCompile Include="win32\TrayIcon.cpp" />
+    <ClCompile Include="win32\Win32.cpp" />
+    <ClCompile Include="prm\prmBase.cpp" />
+    <ClCompile Include="cb\cbBase.cpp" />
+    <ClCompile Include="cb\cbCore.cpp" />
+    <ClCompile Include="cb\cbList.cpp" />
+    <ClCompile Include="cb\cbListItem.cpp" />
+    <ClCompile Include="cb\cbListRoot.cpp" />
+    <ClCompile Include="cons\consBase.cpp" />
+    <ClCompile Include="xml\xmlparse.c" />
+    <ClCompile Include="xml\xmlread.cpp" />
+    <ClCompile Include="xml\xmlreadfile.cpp" />
+    <ClCompile Include="xml\xmlrole.c" />
+    <ClCompile Include="xml\xmltok.c" />
+    <ClCompile Include="xml\xmlwrite.cpp" />
+    <ClCompile Include="json\JSON_parser.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\libraries\sqlite\sqlite3.def" />
+    <None Include="xml\Changes.txt" />
+    <None Include="xml\COPYING.txt" />
+    <None Include="xml\README.txt" />
+    <None Include="..\license.txt" />
+    <None Include="..\rmx_readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

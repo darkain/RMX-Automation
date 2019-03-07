@@ -1,0 +1,131 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "LuaPlusLib"=..\libraries\luaplus\Prj\Win32VC6\LuaPlusLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RMX Core"=.\core\rmx_core.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LuaPlusLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RMX Gaming Edition"=.\gaming_edition\gaming_edition.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name rmx_win32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RMX Media Edition"=.\media_edition\media_edition.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name rmx_win32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RMX SDK"=..\sdk\rmx_sdk.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RMX Stand Alone"=.\stand_alone\stand_alone.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name rmx_win32
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rmx_win32"=.\rmx_win32\rmx_win32.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX Core
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "rmxlib"=.\rmxlib\rmxlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

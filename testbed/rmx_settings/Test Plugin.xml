@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding='UTF-8' standalone="yes"?>
+<plugin>
+  <root name="Test Plugin" expanded="0" id="-4498789570218728448">
+    <info name="Identification" lib="20101015" sdk="20101015" />
+    <tree name="Test Plugin" expanded="0">
+      <tree name="Events" expanded="0">
+        <event name="Event 0" plugin="5160246990518144000" list="-8721728259954741248" f_json="{&quot;menu&quot;: {&quot;id&quot;: &quot;file&quot;,&quot;value&quot;: &quot;File&quot;,&quot;popup&quot;: {&quot;menuitem&quot;: [{&quot;value&quot;: &quot;New&quot;, &quot;onclick&quot;: &quot;CreateNewDoc()&quot;},{&quot;value&quot;: &quot;Open&quot;, &quot;onclick&quot;: &quot;OpenDoc()&quot;},{&quot;value&quot;: &quot;Close&quot;, &quot;onclick&quot;: &quot;CloseDoc()&quot;}]}}}" />
+        <event name="Event 1" plugin="" list="" />
+        <event name="Event 2" plugin="" list="" />
+        <event name="Event 3" plugin="" list="" />
+        <event name="Event 4" plugin="" list="" />
+        <event name="Event 5" plugin="" list="" />
+        <event name="Event 6" plugin="" list="" />
+        <event name="Event 7" plugin="" list="" />
+        <event name="Event 8" plugin="" list="" />
+        <event name="Event 9" plugin="" list="" />
+        <event name="Event A" plugin="" list="" />
+        <event name="Event B" plugin="" list="" />
+        <event name="Event C" plugin="" list="" />
+        <event name="Event D" plugin="" list="" />
+        <event name="Event E" plugin="" list="" />
+        <event name="Event F" plugin="" list="" />
+      </tree>
+      <tree name="Dynamic Title" />
+      <tree name="59622068" />
+      <tree name="Add/Remove" expanded="0">
+        <button name="Add Item" />
+        <button name="Insert Item" />
+        <button name="Add Tree" />
+        <button name="Add Child" />
+        <button name="Show/Hide Tree Item" />
+        <tree name="Visible" />
+      </tree>
+      <tree name="Dynamic Params" expanded="0">
+        <button name="Show/Hide Child" expanded="0">
+          <null name="some text 1" />
+          <null name="some text 2" />
+          <null name="some text 3" />
+        </button>
+        <button name="59622068" />
+        <button name="Dynamic Button Description" />
+        <button name="Dynamic Button Text" />
+        <button name="Dynamic Button onClick() Event" />
+        <string name="59622068">Dynamic EditText Name</string>
+        <string name="Dyanmic EditText text">59622068</string>
+        <string name="Focus Change">untouched</string>
+      </tree>
+      <tree name="children" expanded="0">
+        <tree name="child 1" expanded="0">
+          <tree name="child 1a" />
+          <tree name="child 1b" />
+          <tree name="child 1c" />
+          <tree name="child 1d" />
+          <tree name="child 1e" />
+          <tree name="child 1f" />
+        </tree>
+        <tree name="child 2" />
+        <tree name="child 3" expanded="0">
+          <tree name="child 3a" />
+          <tree name="child 3b" />
+          <tree name="child 3c" />
+          <tree name="child 3d" />
+          <tree name="child 3e" />
+          <tree name="child 3f" />
+        </tree>
+        <tree name="child 4" />
+        <tree name="child 5" />
+        <tree name="child 6" />
+      </tree>
+      <tree name="Data Types" expanded="0">
+        <event name="vSetting" plugin="" list="" />
+        <button name="Activate vSetting" />
+        <string name="cfgText" />
+        <int name="cfgInt">0</int>
+        <bool name="cfgBool">0</bool>
+        <null name="cfgNull" />
+        <int name="cfgInt - Slider Style">0</int>
+        <path name="cfgPath" />
+      </tree>
+      <tree name="Movable Items" expanded="0">
+        <null name="Up" expanded="0">
+          <button name="1" />
+          <button name="2" />
+          <button name="3" />
+          <button name="4" />
+          <button name="5" />
+        </null>
+        <null name="Down" expanded="0">
+          <button name="1" />
+          <button name="2" />
+          <button name="3" />
+          <button name="4" />
+          <button name="5" />
+        </null>
+        <null name="Begining" expanded="0">
+          <button name="1" />
+          <button name="2" />
+          <button name="3" />
+          <button name="4" />
+          <button name="5" />
+        </null>
+        <null name="Ending" expanded="0">
+          <button name="1" />
+          <button name="2" />
+          <button name="3" />
+          <button name="4" />
+          <button name="5" />
+        </null>
+      </tree>
+    </tree>
+    <group name="funcSingle Group" expanded="0">
+      <group name="Item 1" expanded="0">
+        <group name="Item 1a" expanded="0">
+          <function name="Item X" id="-4742353690935690240" />
+        </group>
+        <function name="Item 1b" id="-8226185877641152512" />
+        <function name="Item 1c" id="-29910007423964288" />
+      </group>
+      <group name="Item 2" expanded="0">
+        <function name="Item 2a" id="3765462375990040576" />
+        <function name="Item 2b" id="7432841633079361536" />
+        <function name="Item 2c" id="-1226555584405311488" />
+      </group>
+      <group name="Item 3" expanded="0">
+        <function name="Item 3a" id="-6611477289811439616" />
+        <function name="Item 3b" id="3763395041437714944" />
+        <function name="Item 3c" id="-3654088046353296384" />
+      </group>
+    </group>
+  </root>
+</plugin>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3178dd8b-15a7-42fd-9c1a-2eb526195e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin Loaders">
+      <UniqueIdentifier>{eab90452-ac5b-48eb-bd57-588fff31a1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parsers">
+      <UniqueIdentifier>{d8ff0d33-60e6-44e4-9ca8-db896cb03a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Callbacks">
+      <UniqueIdentifier>{4b45ee4e-fd3e-4ad3-90ef-9431a434152a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPC">
+      <UniqueIdentifier>{ac031461-7a50-4045-8d3d-78e263bbb06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{e018efbe-e912-4871-b329-c75814f17693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{e8b22d98-6159-4789-8170-500de24971ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{dfa8d604-3831-48b5-bc60-8af5f50f7036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{24793799-37a7-46e9-a89d-9403a1777a96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coreSettings.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="funcNone.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginTree.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlugin.h">
+      <Filter>Plugin Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="NetLoader.h">
+      <Filter>Plugin Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Plugin Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RmxPlugin.h">
+      <Filter>Plugin Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureLoader.h">
+      <Filter>Plugin Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureParser.h">
+      <Filter>Plugin Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RmxStack.h">
+      <Filter>Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks\cbConsole.h">
+      <Filter>Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks\cbFunction.h">
+      <Filter>Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks\cbPlugin.h">
+      <Filter>Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks\plugCallback.h">
+      <Filter>Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc\ipcConfigCallback.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc\ipcParser.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc\ipcPlugin.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc\ipcRootListCallback.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaConfig.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaConsole.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaFunction.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaHelper.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaPlugin.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaTimer.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlplugin.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlSettings.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="json\jsonParser.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginTree.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlugin.cpp">
+      <Filter>Plugin Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLoader.cpp">
+      <Filter>Plugin Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Plugin Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="RmxPlugin.cpp">
+      <Filter>Plugin Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureLoader.cpp">
+      <Filter>Plugin Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureParser.cpp">
+      <Filter>Plugin Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="RmxStack.cpp">
+      <Filter>Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks\cbConsole.cpp">
+      <Filter>Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks\cbFunction.cpp">
+      <Filter>Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\ipcParser.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\ipcPlugin.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luaConfig.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luaConsole.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luaFunction.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luaHelper.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luaPlugin.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luaTimer.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlSettings.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsonParser.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite.cpp">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

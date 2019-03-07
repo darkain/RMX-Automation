@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding='UTF-8' standalone="yes"?>
+<plugin>
+  <root name="Master" expanded="0" id="5160246990518144000">
+    <info name="Identification" lib="20101018" sdk="20101018" windows="6.1.7600" platform="2" arch="x86" />
+    <function name="[NONE]" id="-8056085935324410880" />
+    <function name="Script Command" expanded="0" id="5319200713395212288" />
+    <tree name="Scripts" expanded="0">
+      <button name="Reset Scripts" />
+    </tree>
+    <function name="JSON Command" expanded="0" id="-8721728259954741248" />
+    <tree name="Plugins" expanded="0">
+      <bool name="Test Plugin" expanded="1" filename="test_plugin.dll">1</bool>
+    </tree>
+    <function name="Launch" expanded="0" id="-6910370524399695872" />
+    <tree name="Configuration" expanded="0">
+      <bool name="Enabled">1</bool>
+      <bool name="Tray Icon">1</bool>
+      <bool name="Configuration Window" expanded="0">1
+        <int name="X">483</int>
+        <int name="Y">132</int>
+        <int name="Width">600</int>
+        <int name="Height">400</int>
+      </bool>
+      <bool name="Console Window" expanded="0">1
+        <int name="X">0</int>
+        <int name="Y">0</int>
+      </bool>
+    </tree>
+  </root>
+</plugin>

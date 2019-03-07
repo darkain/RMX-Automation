@@ -1,0 +1,13 @@
+LIBRARY
+
+EXPORTS
+
+ winampGetGeneralPurposePlugin	@1
+ pluginInit
+ DLLGetModuleCount		PRIVATE
+ DLLGetModuleInfo		PRIVATE
+ DLLGetVersion			PRIVATE
+ DllCanUnloadNow		PRIVATE
+ DllGetClassObject		PRIVATE
+ DllRegisterServer		PRIVATE
+ DllUnregisterServer	PRIVATE

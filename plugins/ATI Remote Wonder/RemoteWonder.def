@@ -1,0 +1,18 @@
+; -----------------------------------------------------------------
+; Winamp.def
+; Declares the module parameters for the plug-in DLL.
+;
+; Use of this Software Development Kit is subject to the terms and conditions
+; of the ATI Technologies Inc. Software Development Kit License Agreement for 
+; the "REMOTE WONDER Plug-In SDK". If you have not accepted and agreed to this 
+; License, you have no rights to use the software contained herein.  
+; -----------------------------------------------------------------
+
+DESCRIPTION  'RMX Automation'
+
+EXPORTS
+   WhatKeysDoYouWant PRIVATE
+  EnumerateProgrammableFunction PRIVATE
+  Configure PRIVATE  
+  AreYouInFocus PRIVATE  
+  HandleKey PRIVATE    

@@ -1,0 +1,488 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ATI RemoteWonder"=".\ATI Remote Wonder\RemoteWonder.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "App Commands"=".\App Commands\App Commands.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Com Commander"=".\Com Commander\Com Commander.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Debris"=.\Debris\Debris.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "EOS"=.\EOS\EOS.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Example"=.\Example\Example.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Gaming Devices"=".\Gaming Devices\Gaming Devices.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "IntelliRemote"=.\IntelliRemote\IntelliRemote.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Macro"=.\Macro\Macro.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Menu Items"=".\Menu Items\Menu Items.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MessageDigest"=".\Message Digest\MessageDigest.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Network"=.\Network\Network.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name jnetlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Performance"=.\Performance\performance.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Playlist"=.\Playlist\Playlist.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Power Management"=".\Power Management\Power Management.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Profiles"=.\Profiles\Profiles.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RMX SDK"=..\sdk\rmx_sdk.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RMX10"=".\RM-X10\RM-X10.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Remote Center"=".\Remote Center\Remote Center.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Shell Extensions"=".\Shell Extensions\Shell Extensions.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "System Mixer"=".\System Mixer\System Mixer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Test Plugin"=".\Test Plugin\Test Plugin.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Toolbar"=".\Toolbar Controller\Toolbar.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Tray Icons"=".\Tray Icon Controller\Tray Icon Controller.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "UIT"=.\UIT\UIT.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Updater"=.\Updater\Updater.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name jnetlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "User Input"=".\User Input\User Input.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Web_Server"=".\Web Server\web_server.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name jnetlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "jnetlib"=..\libraries\jnetlib\jnetlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "telnetd"=.\telnetd\telnetd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name NetSlave
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "vpedal"=.\VPedal\vpedal.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name RMX SDK
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

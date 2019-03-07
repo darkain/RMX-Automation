@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cfg">
+      <UniqueIdentifier>{183082d5-e258-4c23-af16-87c91f137ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx">
+      <UniqueIdentifier>{da27b59c-29fd-4213-a804-ed276cee2dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="evnt">
+      <UniqueIdentifier>{7b2e8c68-6f75-4ecc-be4a-e050156998d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="func">
+      <UniqueIdentifier>{9624ac57-2659-42a1-a851-b43e1153bd73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handles">
+      <UniqueIdentifier>{7469c827-9497-439c-916a-a8f1305b3ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wnd">
+      <UniqueIdentifier>{8ae850a1-a4dc-4a15-92a4-b806d2add44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="whk">
+      <UniqueIdentifier>{0aa8a45f-9685-451d-b960-c4d92c5ff2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{770e6bea-00c5-4898-8688-d3c764e100fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{6b53a0e1-d377-4d99-a41c-8915321f156b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prm">
+      <UniqueIdentifier>{09081f49-6e2a-4c19-bab4-038456c3bbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cb">
+      <UniqueIdentifier>{b7aa17ae-b2ca-4bb5-912b-7e65751a9196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cons">
+      <UniqueIdentifier>{75d2343b-c293-47ce-885b-0180712541d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{d17c2078-6ce2-4fd4-bd8c-9d408af193a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{36b029c9-c606-44b5-b5f7-53907996be83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sqlite">
+      <UniqueIdentifier>{7487407a-3b4f-463c-b02d-8578b71b6c1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cfg\cfgAddChild.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgAutoList.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgBase.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgBool.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgButton.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgButtonMenu.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgHelper.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgInt.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgLine.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgLink.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgMenu.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgMessage.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgNull.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgPath.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgRoot.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgStatusBar.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgText.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgTree.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\cfgWndHelper.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg\config.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\dxRender.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\dxSprite.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\dxTexture.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\dxTilemap.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\dxTileset.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\dxWnd.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dx\vDirectX.h">
+      <Filter>dx</Filter>
+    </ClInclude>
+    <ClInclude Include="evnt\evntAbsolute.h">
+      <Filter>evnt</Filter>
+    </ClInclude>
+    <ClInclude Include="evnt\evntBase.h">
+      <Filter>evnt</Filter>
+    </ClInclude>
+    <ClInclude Include="evnt\evntLock.h">
+      <Filter>evnt</Filter>
+    </ClInclude>
+    <ClInclude Include="evnt\evntPress.h">
+      <Filter>evnt</Filter>
+    </ClInclude>
+    <ClInclude Include="evnt\evntRelative.h">
+      <Filter>evnt</Filter>
+    </ClInclude>
+    <ClInclude Include="evnt\evntSingle.h">
+      <Filter>evnt</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcAbsolute.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcBase.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcCallback.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcGroup.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcParam.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcPress.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcRelative.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcSingle.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="func\funcToggle.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="handles\hconsole.h">
+      <Filter>handles</Filter>
+    </ClInclude>
+    <ClInclude Include="handles\hfunction.h">
+      <Filter>handles</Filter>
+    </ClInclude>
+    <ClInclude Include="handles\hparamlist.h">
+      <Filter>handles</Filter>
+    </ClInclude>
+    <ClInclude Include="handles\hplugin.h">
+      <Filter>handles</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndBase.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndButton.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndDialog.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndDivider.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndDroplist.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndEdit.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndForest.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndForestBase.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndForestItem.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndForestItems.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndFrame.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndLabel.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndList.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndScroll.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndStatus.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndSubclass.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndTab.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndTree.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="wnd\wndTreeItem.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkBase.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkColor.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkCommand.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkMouse.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkNotify.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkScroll.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="whk\whkTrack.h">
+      <Filter>whk</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSpace.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="plugBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxGuid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxLock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxMsg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxName.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxPair.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxTypes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="rmxUnicode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StringList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TextAlign.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vArray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Comm.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\manifest.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Menu.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\MessageWnd.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Registry.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Thread.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Timer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\timerDelete.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\TrayIcon.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\Win32.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="prm\prmBase.h">
+      <Filter>prm</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbBase.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbCore.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbCoreDelay.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbList.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbListAuto.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbListItem.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbListRoot.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbPlugin.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cb\cbRoot.h">
+      <Filter>cb</Filter>
+    </ClInclude>
+    <ClInclude Include="cons\consBase.h">
+      <Filter>cons</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\amigaconfig.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\ascii.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\asciitab.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\expat.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\expat_external.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\iasciitab.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\internal.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\latin1tab.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\macconfig.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\nametab.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\utf8tab.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\winconfig.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlread.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlreadfile.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlrole.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmltok.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\xmlwrite.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="json\JSON_parser.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\predefine.h" />
+    <ClInclude Include="..\rmx_version.h" />
+    <ClInclude Include="..\libraries\sqlite\sqlite3.h">
+      <Filter>Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\sqlite\sqlite3ext.h">
+      <Filter>Sqlite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cfg\cfgBase.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgBool.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgButton.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgButtonMenu.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgInt.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgLink.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgMenu.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgNull.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgPath.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgRoot.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgStatusBar.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgText.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg\cfgTree.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="dx\dxSprite.cpp">
+      <Filter>dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dx\dxTexture.cpp">
+      <Filter>dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dx\dxTilemap.cpp">
+      <Filter>dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dx\dxTileset.cpp">
+      <Filter>dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dx\dxWnd.cpp">
+      <Filter>dx</Filter>
+    </ClCompile>
+    <ClCompile Include="evnt\evntAbsolute.cpp">
+      <Filter>evnt</Filter>
+    </ClCompile>
+    <ClCompile Include="evnt\evntBase.cpp">
+      <Filter>evnt</Filter>
+    </ClCompile>
+    <ClCompile Include="evnt\evntLock.cpp">
+      <Filter>evnt</Filter>
+    </ClCompile>
+    <ClCompile Include="evnt\evntPress.cpp">
+      <Filter>evnt</Filter>
+    </ClCompile>
+    <ClCompile Include="evnt\evntRelative.cpp">
+      <Filter>evnt</Filter>
+    </ClCompile>
+    <ClCompile Include="evnt\evntSingle.cpp">
+      <Filter>evnt</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcAbsolute.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcBase.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcCallback.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcGroup.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcParam.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcPress.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcRelative.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcSingle.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="func\funcToggle.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndBase.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndButton.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndDialog.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndDivider.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndDroplist.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndEdit.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndForest.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndForestBase.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndForestItem.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndForestItems.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndFrame.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndLabel.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndList.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndScroll.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndStatus.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndSubclass.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndTab.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndTree.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="wnd\wndTreeItem.cpp">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkBase.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkColor.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkCommand.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkMouse.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkNotify.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkScroll.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="whk\whkTrack.cpp">
+      <Filter>whk</Filter>
+    </ClCompile>
+    <ClCompile Include="rmxBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="rmxGuid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="rmxUnicode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Comm.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Menu.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\MessageWnd.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Registry.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Thread.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Timer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\TrayIcon.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\Win32.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="prm\prmBase.cpp">
+      <Filter>prm</Filter>
+    </ClCompile>
+    <ClCompile Include="cb\cbBase.cpp">
+      <Filter>cb</Filter>
+    </ClCompile>
+    <ClCompile Include="cb\cbCore.cpp">
+      <Filter>cb</Filter>
+    </ClCompile>
+    <ClCompile Include="cb\cbList.cpp">
+      <Filter>cb</Filter>
+    </ClCompile>
+    <ClCompile Include="cb\cbListItem.cpp">
+      <Filter>cb</Filter>
+    </ClCompile>
+    <ClCompile Include="cb\cbListRoot.cpp">
+      <Filter>cb</Filter>
+    </ClCompile>
+    <ClCompile Include="cons\consBase.cpp">
+      <Filter>cons</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlparse.c">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlread.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlreadfile.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlrole.c">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmltok.c">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\xmlwrite.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="json\JSON_parser.c">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\sqlite\sqlite3.c">
+      <Filter>Sqlite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xml\Changes.txt">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="xml\COPYING.txt">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="xml\README.txt">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="..\license.txt" />
+    <None Include="..\rmx_readme.txt" />
+    <None Include="..\libraries\sqlite\sqlite3.def">
+      <Filter>Sqlite</Filter>
+    </None>
+  </ItemGroup>
+</Project>

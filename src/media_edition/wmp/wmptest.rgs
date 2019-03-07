@@ -1,0 +1,34 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {07B331E1-213E-42e5-B63A-9EE77C494640} = s 'wmpRmx Class'
+		{
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}
+HKEY_LOCAL_MACHINE
+{
+    NoRemove SOFTWARE
+    {
+        NoRemove Microsoft
+        {
+            NoRemove MediaPlayer
+            {
+                NoRemove UIPlugins
+                {
+                    ForceRemove {07B331E1-213E-42e5-B63A-9EE77C494640}
+                    {
+                        val FriendlyName = s 'RMX Automation'
+                        val Description = s 'RMX Automation - Media Edition'
+                        val Capabilities = d '2'
+                    }
+                }
+            }
+        }
+    }
+}

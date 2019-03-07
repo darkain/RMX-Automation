@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{41dfe989-3a51-4ec5-8b4c-b67770f96ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bsplayer">
+      <UniqueIdentifier>{c5b602c9-f542-4b17-bb5c-2310bb939456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foobar2000">
+      <UniqueIdentifier>{d4e85552-b16e-4bf3-a874-2d02737fc288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="radlight">
+      <UniqueIdentifier>{822bff6d-7065-4210-9f14-d5904ae80c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winamp">
+      <UniqueIdentifier>{9f2003c4-f196-4f92-b32a-d3a5cadd7652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wmp">
+      <UniqueIdentifier>{b68dd622-e531-4510-a662-1924c6167d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{132384e9-5af0-42fc-90a5-eefb171e4897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="remote">
+      <UniqueIdentifier>{c35774e9-5482-4857-a6df-5d174d45eeed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="playlistFunction.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginPlaylist.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="bsplayer\bspMain.cpp">
+      <Filter>bsplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="bsplayer\bspPlaylistPlugin.cpp">
+      <Filter>bsplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="foobar2000\fbMain.cpp">
+      <Filter>foobar2000</Filter>
+    </ClCompile>
+    <ClCompile Include="foobar2000\fbPlaylistPlugin.cpp">
+      <Filter>foobar2000</Filter>
+    </ClCompile>
+    <ClCompile Include="radlight\rlMain.cpp">
+      <Filter>radlight</Filter>
+    </ClCompile>
+    <ClCompile Include="radlight\rlPlaylistPlugin.cpp">
+      <Filter>radlight</Filter>
+    </ClCompile>
+    <ClCompile Include="radlight\URLBase.cpp">
+      <Filter>radlight</Filter>
+    </ClCompile>
+    <ClCompile Include="radlight\URLTypes.cpp">
+      <Filter>radlight</Filter>
+    </ClCompile>
+    <ClCompile Include="winamp\waMain.cpp">
+      <Filter>winamp</Filter>
+    </ClCompile>
+    <ClCompile Include="winamp\waPlaylistPlugin.cpp">
+      <Filter>winamp</Filter>
+    </ClCompile>
+    <ClCompile Include="wmp\wmpMain.cpp">
+      <Filter>wmp</Filter>
+    </ClCompile>
+    <ClCompile Include="wmp\wmpPlaylistPlugin.cpp">
+      <Filter>wmp</Filter>
+    </ClCompile>
+    <ClCompile Include="remote\remote.cpp">
+      <Filter>remote</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="playlistFunction.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginPlaylist.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="bsplayer\bsp.h">
+      <Filter>bsplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="bsplayer\bspMain.h">
+      <Filter>bsplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="bsplayer\bspPlaylistPlugin.h">
+      <Filter>bsplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="bsplayer\bspplg.h">
+      <Filter>bsplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="foobar2000\fbMain.h">
+      <Filter>foobar2000</Filter>
+    </ClInclude>
+    <ClInclude Include="foobar2000\fbPlaylistPlugin.h">
+      <Filter>foobar2000</Filter>
+    </ClInclude>
+    <ClInclude Include="radlight\RadLight.h">
+      <Filter>radlight</Filter>
+    </ClInclude>
+    <ClInclude Include="radlight\rlMain.h">
+      <Filter>radlight</Filter>
+    </ClInclude>
+    <ClInclude Include="radlight\rlPlaylistPlugin.h">
+      <Filter>radlight</Filter>
+    </ClInclude>
+    <ClInclude Include="radlight\URLBase.h">
+      <Filter>radlight</Filter>
+    </ClInclude>
+    <ClInclude Include="radlight\URLPlayback.h">
+      <Filter>radlight</Filter>
+    </ClInclude>
+    <ClInclude Include="radlight\URLTypes.h">
+      <Filter>radlight</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\gen.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\ipc_pe.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\wa_dlg.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\wa_hotkeys.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\wa_ipc.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\waMain.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="winamp\waPlaylistPlugin.h">
+      <Filter>winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="wmp\wmp.h">
+      <Filter>wmp</Filter>
+    </ClInclude>
+    <ClInclude Include="wmp\wmpMain.h">
+      <Filter>wmp</Filter>
+    </ClInclude>
+    <ClInclude Include="wmp\wmpPlaylistPlugin.h">
+      <Filter>wmp</Filter>
+    </ClInclude>
+    <ClInclude Include="wmp\wmpplug.h">
+      <Filter>wmp</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="remote\remote.h">
+      <Filter>remote</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wmp\wmptest.rgs">
+      <Filter>wmp</Filter>
+    </None>
+    <None Include="experts.def">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\Testbed\RMX Icons\registry.bin">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\Installer\Icons\rm-x.ico" />
+    <None Include="..\..\Installer\Icons\uninstall.ico" />
+    <None Include="wmptest.rgs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

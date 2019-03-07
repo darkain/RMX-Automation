@@ -1,0 +1,136 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	color: #000;
+	background: #0f0;
+	overflow: hidden;
+}
+
+#body {
+	border: 1px solid #094472;
+	background: #fff;
+	position: absolute;
+	overflow-y: auto;
+	white-space: pre;
+}
+
+#sidebar {
+	border: 1px solid #094472;
+	position: absolute;
+	background: #eee;
+	padding: 5px 0 5px 4px;
+	overflow-y: auto;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar li {
+	padding: 5px;
+	margin: 2px 5px;
+	border-radius: 5px;
+	font-family: Sans-Serif;
+	font-size: 1.3em;
+}
+
+#sidebar li:hover, #sidebar li:active {
+	padding: 3px;
+	background: #0F6CB6;
+	color: #fff;
+	border: 2px solid;
+	border-color: #1A88DC #1D69A3 #1D69A3 #1A88DC;
+	cursor: pointer;
+	box-shadow: 3px 3px 20px #0F6CB6;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+#sidebar li:active {
+	border-color: #1D69A3 #1A88DC #1A88DC #1D69A3;
+	color: #000;
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+}
+
+#sidebar li ul {
+	margin-left: 1em;
+}
+
+#nav-top {
+	background:#0f6cb6;
+	color:#fff;
+	border-bottom:1px solid #094472;
+	padding: 4px 5px 0 5px;
+	margin: 0;
+}
+
+#nav-top .button {
+	width: 34px;
+	height: 34px;
+	border: 1px solid #0f6cb6;
+	display: inline-block;
+	text-align: center;
+	margin-right: 3px;
+}
+
+#nav-top .buttons { font-size: 0; }
+
+#nav-top .button:hover {
+	border-color: #fff;
+	background: #0b4e83;
+	cursor: pointer;
+}
+
+#nav-top .button:active {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#nav-top .buttons .button {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+
+#nav-top .buttons img {
+	width: 100%;
+}
+
+.rmx-row {
+	border: 1px solid black;
+	padding: 3px;
+	margin: 2px 5px;
+	background: #eef;
+}
+
+.rmx-row:hover {
+	background: #fff;
+}
+
+button {
+	border: 2px solid;
+	border-color: #0F6CB6;
+	padding: 3px;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #0F6CB6;
+	color: #fff;
+}
+
+button:hover, button:active {
+	background: #0F6CB6;
+	color: #fff;
+	border-color: #1A88DC #1D69A3 #1D69A3 #1A88DC;
+	cursor: pointer;
+	box-shadow: 3px 3px 20px #0F6CB6;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+button:active {
+	border-color: #1D69A3 #1A88DC #1A88DC #1D69A3;
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+	color: #000;
+}

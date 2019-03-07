@@ -1,0 +1,228 @@
+Function: X10IF* X10Open(X10ZSTRING xzPort)
+
+	Opens the CM11A for reading and writing on the COM port named as parameter xzPort.
+	xzPort is an OS dependant name, for Win32 systems (Win9x/NT) the name is "COM1",
+	"COM2","COM3", etc.
+
+Inputs: 
+	X10ZSTRING xzPort: Character array that names the Serial Device to be opened
+
+Outputs:
+
+Returns:
+	On success: A pointer to a communication device structure
+	On error: X10FALSE
+
+Comments:
+	There is currently no error information other than "it didn't work."
+	This function may fail because there is no deviced attached to the
+	serial port or the device is not turned on/pluged in.
+
+Example:
+	void main()
+	{
+		X10IF *pxif;
+		pxif = X10Open("COM1");
+		if(pxif)
+			X10Close(pxif);
+	}
+	
+====
+
+Function: X10BOOL X10Close(X10IF* pxif)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+
+Outputs:
+
+Returns:
+	On success: X10TRUE
+	On error: X10FALSE
+
+Comments:
+	There is currently no error information other than "it didn't work."
+	If this function is called with an invalid X10IF* the functioning is
+	undefined. Just like division by 0, or free(NULL). Robustness may be
+	added in the future, but for now, don't be a sloppy coder.
+	
+Example:
+	void main()
+	{
+		X10IF *pxif;
+		pxif = X10Open("COM1");
+		if(pxif)
+		{
+			X10Close(pxif);
+		}
+	}
+
+====
+
+Function: X10BOOL X10WriteDevice(X10IF *pxif, X10BYTE xbFunction, X10BYTE xbFData, X10BYTE xbHouseCode, X10BYTE xbDeviceCode)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+	X10BYTE xbFunction: An X10 Function Code (see x10api.h)
+	X10BYTE xbFData: One byte of function specific data
+	X10BYTE xbHouseCode: An X10 House Code (see x10api.h)
+	X10BYTE xbDeviceCode: An X10 Device Code (see x10api.h)
+
+Outputs:
+
+Returns:
+	On success: X10TRUE
+	On error: X10FALSE
+
+Comments:
+	xbFData is usually used by the DIM function
+
+Example:
+	for(i=0;i<10;i++)
+		if(X10WriteDevice(pxif,DIM,0x0F,A,SEVEN))
+			break;
+
+====
+
+Function: X10BOOL X10WriteHouse(X10IF *pxif, X10BYTE xbFunction, X10BYTE xbFData, X10BYTE xbHouseCode)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+	X10BYTE xbFunction: An X10 Function Code (see x10api.h)
+	X10BYTE xbFData: One byte of function specific data
+	X10BYTE xbHouseCode: An X10 House Code (see x10api.h)
+
+Outputs:
+
+Returns:
+	On success: X10TRUE
+	On error: X10FALSE
+
+Comments:
+	Not all X10 Functions can be sent to a house code
+
+Example:  
+		if(X10WriteDevice(pxif,ALL_UNITS_OFF,0x00,A))
+
+====
+
+Function: X10BOOL X10WriteRaw(X10IF *pxif, X10INT xnSize, X10BYTE *axbData)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+	X10INT xnSize: The number of bytes to be written
+	X10BYTE *axbData The Bytes to be written
+
+Outputs:
+
+Returns:
+	On success: X10TRUE
+	On error: X10FALSE
+
+Comments:
+	provided for god knows what reason
+	
+====
+
+Function: X10BOOL X10ReadRaw(X10IF *pxif, X10INT xnSize, X10BYTE *axbData)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+	X10INT xnSize: The number of bytes to be read
+
+Outputs:
+	X10BYTE *axbData The Bytes that were read
+
+Returns:
+	On success: X10TRUE
+	On error: X10FALSE
+
+Comments:
+	provided for god knows what reason
+	
+====
+
+Function: X10BOOL X10IsRing(X10IF *pxif)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+
+Outputs:
+
+Returns:
+	TRUE if a RI(Ring) has occurred since the last time X10IsRing()
+	was called.
+	FALSE if a RI(Ring) has not occurred since the last time X10IsRing()
+	was called.
+
+Comments:
+	When the CM11 has data to be down loaded it will stop accepting
+	commands from the serial interface until its download request in
+	satisfied. X10IsRing() should be called once every second to check
+	for data.
+	With the current implementation of OSIsRing(), it is possible to miss
+	the RI singal. For this reason, I have also built some fail safes into
+	the X10Write...() functions.
+
+====
+
+Function: X10BOOL X10HandleRing(X10IF *pxif, X10BYTE xbHail)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+	X10BYTE xbHail: A CM11 Hail code (see x10api.h)
+
+Outputs:
+
+Returns:
+	On success: X10TRUE
+	On error: X10FALSE
+
+Comments:
+	This function should only be called when the X10IsRing() function
+	returns TRUE. However, it can be called at anytime and should actually
+	be used as an initialization function since there may be data waiting
+	for us at launch time. This function will also be called if one of
+	the X10Write...() functions detects that the CM11A has data waiting
+	for us.
+
+	Some notes on the CM11A: I have noticed that at power up of the 
+	CM11A it starts sending its request for clock information, sometimes
+	it takes more than one send to get it to start working. It has also
+	been my experience that you have to kick start the CM11A by using
+	one of the remote controls. Sometimes it won't start accepting data
+	from the serial port until it recieves data from the power line.
+====
+
+Function: X10VOID OSSleep(X10INT xnJiffies)
+
+Inputs: 
+	X10INT xnJiffies
+
+Outputs:
+
+Returns:
+	
+
+Comments:
+	A Jiffy is 1/60th of a second
+
+Example:
+	X10Sleep(60); // Sleeps for one second.
+
+====
+
+Function: X10BOOL X10SetClock(X10IF*pxif)
+
+Inputs: 
+	X10IF* pxif: A pointer to a communication device structure
+
+Outputs:
+
+Returns:
+	Always returns TRUE		
+
+Comments:
+	This command can be called at any time. The interface my
+	change in future implementations, so avoid using it for now.
+

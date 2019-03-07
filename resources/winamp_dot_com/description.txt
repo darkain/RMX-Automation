@@ -1,0 +1,7 @@
+Control your music, your way, with RMX Media Edition!
+
+RMX has supports for a wide range of inputs (including keyboard shortcuts, multimedia keyboards, wireless remotes, gamepads, tray icons, floating toolbars, telnet, and more). Supported hardware devices include the Creative RM-900, ATI Remote Wonder series, X10 devices.
+
+RMX also provides a Lua scripting interface that can be used with your media for additional control!
+
+RMX now includes an auto-update feature, so your devices will always have the most up-to-date support possible.
