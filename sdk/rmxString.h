@@ -60,6 +60,7 @@ public:
 	const rmxString  operator  + (FOURCC         data) const;
 
 	bool operator == (const rmxData *data) const;
+	bool operator == (const char    *data) const;
 	bool operator == (int            data) const;
 	bool operator == (__int64        data) const;
 	bool operator == (double         data) const;
@@ -67,6 +68,7 @@ public:
 	bool operator == (FOURCC         data) const;
 
 	bool operator != (const rmxData *data) const;
+	bool operator != (const char    *data) const;
 	bool operator != (int            data) const;
 	bool operator != (__int64        data) const;
 	bool operator != (double         data) const;

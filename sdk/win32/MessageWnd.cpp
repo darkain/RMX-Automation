@@ -7,6 +7,7 @@
 \***********************************************************************/
 
 
+
 #include "../rmxBase.h"
 #include "MessageWnd.h"
 
@@ -116,12 +117,17 @@ VUINT vMessageWnd::wndProc_setup(UINT msg, VUINT param1, VUINT param2) {
 }
 
 LRESULT CALLBACK vMessageWnd::static_wndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam) {
-  if (msg == WM_INITDIALOG) SetWindowLongPtr(hwnd, GWLP_USERDATA, lparam);
-  else if (msg == WM_CREATE) {
+  if (msg == WM_INITDIALOG) {
+    SetWindowLongPtr(hwnd, GWLP_USERDATA, lparam);
+  
+  } else if (msg == WM_CREATE) {
     CREATESTRUCT *create = (CREATESTRUCT*) lparam;
     SetWindowLongPtr(hwnd, GWLP_USERDATA, (DWORD)create->lpCreateParams);
   }
+  
   vMessageWnd *wnd = (vMessageWnd*)GetWindowLongPtr(hwnd, GWLP_USERDATA);
-  if (wnd) return wnd->wndProc_setup(msg, wparam, lparam);
-  return DefWindowProc(hwnd, msg, wparam, lparam);
+  
+  return wnd
+    ? wnd->wndProc_setup(msg, wparam, lparam)
+    : DefWindowProc(hwnd, msg, wparam, lparam);
 }

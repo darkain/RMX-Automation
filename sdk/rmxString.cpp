@@ -119,6 +119,11 @@ bool rmxString::operator == (const rmxData *data) const {
 	return (*this) == data->getValue();
 }
 
+
+bool rmxString::operator == (const char *data) const {
+	return (*this) == data;
+}
+
 bool rmxString::operator == (int data) const {
 	return (*this) == rmxData(data).getValue();
 }
@@ -146,6 +151,10 @@ bool rmxString::operator == (FOURCC data) const {
 
 bool rmxString::operator != (const rmxData *data) const {
 	return (*this) != data->getValue();
+}
+
+bool rmxString::operator != (const char *data) const {
+	return (*this) != data;
 }
 
 bool rmxString::operator != (int data) const {

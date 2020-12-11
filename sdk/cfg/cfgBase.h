@@ -25,7 +25,7 @@
 #include "../rmxString.h"
 #include "../rmxTypes.h"
 #include "../cb/cbBase.h"
-#include "prmBase.h"
+#include "../prm/prmBase.h"
 #include "cfgMessage.h"
 
 

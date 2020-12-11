@@ -89,7 +89,7 @@ void xmlWrite::writeCategoryAttrib(const char *title, const char *str) {
 
 
 void xmlWrite::closeCategoryAttrib(int wantcr) {
-  if ((void*)titles.getLastItem() == (XML_WRITE_EMPTY)) fprintf(fp, " /");
+  if ((void*)titles.getLastItem() == ((void*)XML_WRITE_EMPTY)) fprintf(fp, " /");
   fprintf( fp, ">%s", (wantcr) ? ("\n") : ("") );
 }
 
@@ -121,7 +121,7 @@ int xmlWrite::popCategory(int wantcr, int wantindent) {
   rmxString *title = titles.getLastItem();
   titles.removeLastItem();
 
-  if (title != NULL  &&  (void*)title != XML_WRITE_EMPTY) {
+  if (title != NULL  &&  (void*)title != (void*)XML_WRITE_EMPTY) {
     if (wantindent) {
       fprintf(fp, "%*s</%s>%s", indent*2, " ", title, wantcr ? "\n" : "");
     } else {

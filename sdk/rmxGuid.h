@@ -11,7 +11,7 @@
 #define _RMX_GUID_H_
 
 
-#include <Guiddef.h>
+#include "guiddef.h"
 #include "rmxBase.h"
 
 

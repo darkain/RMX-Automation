@@ -12,7 +12,7 @@
 
 #include "../../sdk/rmxBase.h"
 #include "../../sdk/handles/hfunction.h"
-#include "../../sdk//func/funcGroup.h"
+#include "../../sdk/func/funcGroup.h"
 #include "rmx_msg.h"
 
 

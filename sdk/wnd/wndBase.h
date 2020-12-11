@@ -19,6 +19,18 @@ class wndDialog;
 class whkBase;
 
 
+#ifndef SetWindowLongPtr
+#define SetWindowLongPtr SetWindowLong
+#endif
+
+#ifndef GetWindowLongPtr
+#define GetWindowLongPtr GetWindowLong
+#endif
+
+#ifndef LONG_PTR
+#define LONG_PTR LONG
+#endif
+
 
 class wndBase : public vMessageWnd {
   friend class wndSubclass;

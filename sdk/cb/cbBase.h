@@ -15,7 +15,7 @@
 
 
 #include "../rmxList.h"
-#include "../cfg/prmBase.h"
+#include "../prm/prmBase.h"
 
 class cfgBase;
 

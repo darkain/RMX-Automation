@@ -515,6 +515,10 @@ SOURCE=.\ColorSpace.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\guiddef.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\plugBase.h
 # End Source File
 # Begin Source File
@@ -524,6 +528,14 @@ SOURCE=.\rmxBase.cpp
 # Begin Source File
 
 SOURCE=.\rmxBase.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxData.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxData.h
 # End Source File
 # Begin Source File
 
@@ -547,11 +559,39 @@ SOURCE=.\rmxMsg.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\rmxMutex.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxMutex.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\rmxName.h
 # End Source File
 # Begin Source File
 
+SOURCE=.\rmxOS.h
+# End Source File
+# Begin Source File
+
 SOURCE=.\rmxPair.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxString.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxString.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxThread.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\rmxThread.h
 # End Source File
 # Begin Source File
 
